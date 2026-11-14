@@ -6,6 +6,26 @@
     <description>Pulse for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Pulse 2.4.0</title>
+      <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v2.4.0</link>
+      <pubDate>Sat, 14 Nov 2026 15:24:14 +0000</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/pulse-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- chore: 2.4.0 — hold ⌘Q to quit, Mixer page in the notch
+- feat(notch): Mixer page — main volume and per-app levels in the open notch
+- feat(quit-guard): hold ⌘Q to quit, as an alternative to pressing it twice
+- docs: MEMORY.md — everything a new session needs to pick Pulse up
+
+SHA-256: `27376edcc754c7f9292644c999e6fdca8fb72edf22bdad6e3b0ad6a1562def86`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/pulse-releases/releases/download/v2.4.0/Pulse-2.4.0.dmg" length="37592079" type="application/octet-stream" sparkle:edSignature="hWSwrtSvDtkYD2pkEYU7IbsG2KnBnUqoV61FQL277eB3FlV9r94kOW17+7HO4besIAbKFcRYUubJpiUroQsOBw=="/>
+    </item>
+    <item>
       <title>Pulse 2.3.0</title>
       <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v2.3.0</link>
       <pubDate>Sun, 08 Nov 2026 22:28:00 +0000</pubDate>
