@@ -6,6 +6,69 @@
     <description>Pulse for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Pulse 2.5.0</title>
+      <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v2.5.0</link>
+      <pubDate>Sun, 15 Nov 2026 07:31:26 +0000</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/pulse-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- chore: 2.5.0 — unified menu bar, notch pages, 20+ new tools, launcher filters and system apps
+- fix(launcher): a working calculation or conversion comes before Ask Pulse
+- fix(toggles): action tiles keep a fixed height instead of growing with the window
+- fix(launcher): apps rank above file hits named like the query, as in Spotlight
+- feat(notch): notifications page, sections gallery with search, live equalizer, idle content
+- feat(mouse): pointer speed slider while acceleration is off (scales the mouse's own resolution, restored at 1×)
+- feat(displays): brightness keys follow the pointer (monitors over DDC/CI), half/quarter steps, extra brightness on XDR panels
+- feat(mixer): per-app output device (experimental, off by default) on the existing tap routes
+- feat(audio): notch peek on output switch and mic mute, optional muted-mic dot on the menu bar icon
+- feat(mouse): three-finger trackpad click as a middle click
+- feat(mouse): pointer acceleration off for mice, previous value restored
+- feat(mouse): smooth scrolling — wheel notches glide, with distance and glide time
+- feat(tools): Displays — brightness for every display (DDC/CI for monitors), monitor speakers, extra dimming
+- feat(tools): Radial menu — a ring of apps and Pulse actions around the pointer
+- feat(tools): Media tools — convert images, compress videos, make GIFs, locally
+- feat(tools): Super key — Caps Lock (or right ⌘/⌥) as ⌃⌥⇧⌘, a tap sends Escape
+- feat(tools): Window snapping — edges and corners with a preview, modifier move and resize
+- feat(quit-guard): a ⇧ mode (only ⇧⌘Q quits) and guarding only listed apps
+- feat(tools): Green button fills the screen without a new Space; ⌥-click stays native
+- feat(tools): Dock clicks — clicking the front app's icon hides, minimizes or cycles it
+- feat(launcher): open windows as a source, unit conversions in the calculator
+- feat(tools): Text snippets — type a trigger, get the text; also in the launcher
+- feat(tools): Input filters — extra click filter and key debounce for worn hardware
+- feat(mouse): scroll sideways while holding a key, linear wheel scrolling
+- feat(tools): Finder shortcuts — cut and paste moves, F2 renames, paste an image as a PNG
+- feat(tools): App updates — Sparkle feeds, App Store (mas) and Homebrew in one list
+- feat(tools): Uninstaller — remove an app and what it left in Library
+- feat(notch): wire the 2.5 pages in; EN and TR strings; Xcode project
+- feat(tools): Scratchpad, a floating panel and a notch page
+- feat(notch): Controls page
+- feat(notch): Clipboard, Captures and Downloads pages
+- feat(notch): Calendar and Timer pages
+- feat(notch): page order, hidden pages, home page, letter keys and swipes
+- feat(tools): Audio devices — output switcher and microphone
+- feat(tools): Chat downloads — tidy what chat apps saved to Downloads
+- feat(tools): Disk image installer
+- feat(quit-guard): also guard ⌘W (close window or tab)
+- feat(native): one Pulse status item with a right-click menu; switching style adds and removes items
+- feat(settings): Menu bar style picker and unified icon options
+- feat(panel): unified dropdown with icon tabs (Live, Usage, Cleaner, Mixer, quick actions, tool switches)
+- feat(menubar): unified menu bar settings, readouts and main-engine sync
+- fix(tools): toggle shortcuts for keep awake, cleaning, mixer and camera match the full action id
+- feat(toggles): keep Spaces in order (restores the previous setting when off)
+- feat(live): LAN address and on-demand speed test in the network card
+- feat(tools): Clipboard care — auto clear and link cleaning
+- feat(tools): Quick toggles and Port manager
+- feat(launcher): system apps, System Settings panes, #type and @folder filters
+
+SHA-256: `aeb31e246721bf9202f9df046e953e5b4230c7c5212a8703915c422ed4c65f1a`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/pulse-releases/releases/download/v2.5.0/Pulse-2.5.0.dmg" length="38922757" type="application/octet-stream" sparkle:edSignature="+ImV/z48EJ77/QDdHpZLCekt9v4dOotHjIPKrucDhz8pS1OTvMwU3I4wyet6C/OONq9MY5p1lGdS24ZNDFaHCg=="/>
+    </item>
+    <item>
       <title>Pulse 2.4.0</title>
       <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v2.4.0</link>
       <pubDate>Sat, 14 Nov 2026 15:24:14 +0000</pubDate>
