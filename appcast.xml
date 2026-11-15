@@ -6,6 +6,74 @@
     <description>Pulse for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Pulse 3.0.0</title>
+      <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v3.0.0</link>
+      <pubDate>Sun, 15 Nov 2026 16:21:21 +0000</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>3.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/pulse-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- chore: 3.0.0 — Pulse Remote, pinnable Quick actions, PDF/Image/Developer tools and more
+- fix(remote-app): the screen view's input controller stays alive, so trackpad, touch, pinch and scroll reach the Mac
+- feat(hot-corners): PULSE_HOT_CORNERS=log traces configure, corner entry and each decision
+- feat(launcher): site search keywords (gh, yt, wiki, maps, npm, pub, mdn, translate)
+- chore(tools): analyzer tidy in battery tests
+- test(tools): new tools' Dart tests; keyboard layout forget row fits the smallest window
+- feat(launcher): date maths in the calculator row (today + 90 days, in 3 weeks, 2 ay sonra)
+- wip(tools): pins, readout, EN+TR strings
+- wip(tools): presenter natives, routing, xcode sync
+- feat(notch): Join for video meetings, a meeting peek and a download-finished peek
+- feat(notch): Copy code on notifications that carry a sign-in code
+- feat(launcher): every pinnable tool action is a launcher command, argument commands, ⌘K actions panel
+- feat(notch): the timer survives restarts and sleep, with shortcuts and actions
+- wip(tools): presenter dart side, keyboard layout natives
+- wip(tools): device batteries, hot corners, keyboard layout (in progress)
+- fix(remote): declare Local Network use so macOS can ask instead of silently dropping LAN connections
+- feat(notch): timer action ids shared by the launcher, pins and shortcuts
+- fix(remote): list Quick actions from the pin-era MenuToolAction catalog
+- fix(remote-mobile): Keychain that never answers, toolbar overflow, stat bars
+- chore: analyzer tidy (const rows, set literal)
+- fix(snippets,super-key): read the cached front app; read settings before awaiting
+- fix(updates): appcasts skip beta channels and versions this macOS cannot run
+- fix(uninstall): remove apps installed for all users; find leftovers outside ~/Library
+- test(remote): live end-to-end harness, chunked-body fix
+- fix(dmg-install): the old app is kept until the new one is in place; no leaked mounts
+- fix(toggles): eject off the main thread with reasons; Finder never restarted mid-copy
+- feat(remote): Pulse Remote phone app (Flutter, iOS + Android)
+- feat(remote): Pulse Remote tool page, settings and service
+- fix(dev-tools): QR content pills keep their natural width
+- fix(displays): DDC off the main thread; monitors matched by framebuffer, not order
+- fix(audio): a manual mic switch sticks; the mute follows the microphone
+- feat(tools): PULSE_FILES launch switch seeds the file tools' lists
+- fix(radial): starting items are named in Pulse's language
+- fix(super-key): keep other key mappings, send excluded apps, warn about Double Tap
+- fix(menubar): screenshot mode pins name their tool (Screenshot › Area)
+- fix(finder-keys): a pasted image is never lost or overwritten
+- feat(native): DevToolsBridge — file panels, Vision QR from image/screen, Text tools menu at the pointer
+- feat(launcher): developer answers source (uuid, epoch, colours, hashes, Base64, URL) with colour swatch
+- feat(tools): Developer category with Dev toolbox (17 sub-tools, smart paste) and Text tools
+- feat(ocr): choose the languages to read; default to the Mac's languages
+- test(tools): every PDF and image action lays out in EN/TR; native output per test
+- feat(tools): Automation permission rows for Finder and System Events
+- fix(snippets,clip-care): Pulse's own pasteboard writes stay out of clipboard history
+- feat(tools): PDF tools and Image tools in a new Files & documents category (WIP)
+- fix(snap): probe off the tap thread, coalesce drags, no false snap, Windows gap
+- fix(tools): click taps pre-filter by geometry and hit-test with a 0.1 s timeout
+- test(settings): Quick actions rows in a tall view
+- fix(notch): no lyrics for films in browsers; full-screen and media-source options
+- fix(notch): hide for macOS full screen on notched screens, borderless and video full screen
+- feat(menubar): pinnable Quick actions — catalog, saved pins, edit mode, settings, footer fit
+- fix(tools): tap tools start once Accessibility is granted, without Pulse becoming active
+- feat(remote): native listener for Pulse Remote (HTTP + WebSocket over Tailscale)
+
+SHA-256: `6191c06210dd82e4fc7cccbec59f34e5cdfe99b57c0ba20b1f77a0a4a0787ffe`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/pulse-releases/releases/download/v3.0.0/Pulse-3.0.0.dmg" length="41762411" type="application/octet-stream" sparkle:edSignature="Brv4unFwktpYr8dj2sWXZ35+IricDifiCA/sN7yJ9FZZw82xFs3QT1+vb5B6fg6llhesXtsDvOAStrPbH/2FBw=="/>
+    </item>
+    <item>
       <title>Pulse 2.5.0</title>
       <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v2.5.0</link>
       <pubDate>Sun, 15 Nov 2026 07:31:26 +0000</pubDate>
