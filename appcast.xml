@@ -6,6 +6,31 @@
     <description>Pulse for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Pulse 3.0.1</title>
+      <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v3.0.1</link>
+      <pubDate>Sun, 15 Nov 2026 17:28:10 +0000</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>3.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/pulse-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- chore: 3.0.1 — Remote 60/120 fps, trusted phones, phone app polish
+- fix(remote-app): white switch thumb on light; docs for settings, app id, icon
+- test(remote-app): settings model, store, notifier, wiring and screen
+- feat(remote-app): Settings — appearance, language, screen view, connection, about
+- refactor(remote-app): colours come from a theme palette (Kasi dark, light, accents)
+- feat(remote-app): Pulse Remote icon and Kasi launch screen
+- chore(remote-app): app id org.kutuyazilim.pulse.remote, pulse-remote:// links open the app
+- fix(remote-app): pair under the phone's name or model, not Android's "localhost"
+- feat(remote): 60 and 120 fps screen sharing with a caution, and per-phone "screen without asking"
+
+SHA-256: `c321a4a4abe2c51234446e243fa4fbe314842da2dc6a8d3199c9b4f044358fd6`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/pulse-releases/releases/download/v3.0.1/Pulse-3.0.1.dmg" length="41766371" type="application/octet-stream" sparkle:edSignature="faiTARZ0kZ2FNhck7YCZOI5xZDJKbR6qkHsHR2IltQcOy631ivixskUtqeXHOKGaPswcAsj6Or5HS6HAWPUMBA=="/>
+    </item>
+    <item>
       <title>Pulse 3.0.0</title>
       <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v3.0.0</link>
       <pubDate>Sun, 15 Nov 2026 16:21:21 +0000</pubDate>
