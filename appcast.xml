@@ -6,6 +6,39 @@
     <description>Pulse for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Pulse 3.1.0</title>
+      <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v3.1.0</link>
+      <pubDate>Sun, 15 Nov 2026 21:00:20 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/pulse-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- chore: 3.1.0 — phone sync and mirroring, ⌘Q hold fix, update fixes
+- fix(remote-app): keep the update banner after a failed download; README: how the Android app updates
+- test(remote-app): updater feed, policy, verifier, state machine; banner, sheet and Settings › About in EN and TR
+- feat(remote-app): in-app updater for the Android app (feed, download, SHA-256 check, PackageInstaller)
+- chore(remote-app): publish_remote_apk.sh writes the in-app update feed remote-android.json
+- test(remote-app): mirror screen start/live/stop in EN and TR, iPhone message, Mac page entry
+- test(remote): live Sync harness — debug-only server.json hook, sync log, pasteboard keeper
+- fix(updates): "Check for updates" works again; a replaced app restarts itself
+- fix(remote): mirror window title-bar controls sized and aligned, first frame sizes the window; docs, mirror harness
+- feat(remote-app): native Sync — Android notification listener, foreground service, Mac notifications; iOS change count and local notifications
+- feat(remote-app): Sync — clipboard both ways, forward notifications (Android), show Mac notifications, stay connected
+- feat(remote-app): Android capture — MediaProjection foreground service, JPEG encoder, Accessibility control
+- feat(remote-app): mirror this phone to the Mac — protocol, pacing, notifier, screen, settings
+- fix(quit-guard): a completed hold really quits the app
+- feat(remote): Mac side of phone mirroring — mirror capability, phone frames, window, options
+- feat(remote): Mac side of constant sync — clipboard both ways, phone notifications on the Mac, Mac notifications to phones
+- fix(quit-guard): holding ⌘Q quits in press-twice mode too
+
+SHA-256: `bc395eb6389225fe9d631e3fc6b7681ebe34314b19f1abcb83f57a1b9b050acf`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/pulse-releases/releases/download/v3.1.0/Pulse-3.1.0.dmg" length="41926408" type="application/octet-stream" sparkle:edSignature="2UCT7m1bdxzbH8nBntBf51GQMX9ZJjqUGf7YGMLlB3DvEgBYfJCs2UJK9SuxuEhOs+dxiPEaTGl+/UQYT2vdCQ=="/>
+    </item>
+    <item>
       <title>Pulse 3.0.1</title>
       <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v3.0.1</link>
       <pubDate>Sun, 15 Nov 2026 17:28:10 +0000</pubDate>
