@@ -6,6 +6,43 @@
     <description>Pulse for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Pulse 3.3.0</title>
+      <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v3.3.0</link>
+      <pubDate>Mon, 16 Nov 2026 13:04:48 +0000</pubDate>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>3.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/pulse-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- chore: 3.3.0 — panel clicks, T3 tab fixes, usage predictions, tab switches, history charts, two-way file browsing
+- fix(remote): Browse phone sits after Ring in the Phone tab grid
+- feat(charts): PULSE_CHART_HOVER debug switch, softer min-max band; document the history switches
+- feat(remote): Phone files page, Browse phone in the Phone tab, browsing options
+- test(remote-app): the settings page scrolls through the new Files on this phone section
+- test(remote-app): browsing server, browser, settings and screens; live browse harness; 1.3.0+4
+- feat(history): tiered 90-day history, busiest processes per peak, off-thread chart loads
+- feat(charts): shared time chart with axes, peak/low markers, hover crosshair and tooltip, loading skeleton
+- feat(remote-app): browse the Mac's files and let the Mac browse this phone
+- test: the menu bar chat command test uses default settings, not the Mac's own (it failed with Chat turned off)
+- feat(remote): phones browse and change Mac files, the Mac browses phones (native)
+- fix(t3): Open in T3 Code opens the T3 Code app on the thread
+- feat(remote-app): browsing core — protocol names, paged listing, confined phone storage, browse.request handler
+- docs(remote): two-way file browsing protocol (Browsing, 3.3 / Remote 1.3)
+- feat(settings): switches for the Chat, Cleaner, T3 and Knowledge tabs
+- feat(usage): the Usage tab shows only usage, with limits, resets and predictions
+- fix(panel): menu bar panel takes clicks again
+- chore(t3): PULSE_T3_TOKEN_FILE (debug builds) reads the session from a file, for live checks that leave the Keychain alone
+- perf(t3): ask for a bounded thread snapshot (1 MB instead of 14 MB on a real long thread)
+- fix(t3): Model picker never empty, remembers the last model; saved thread filter
+- fix(t3): frames over 64 KB were dropped, so a real server's threads and models never arrived
+
+SHA-256: `49e3aa6651831982e10e12baa8a0e710d451fe7275d35f963c3046fac9ec2ddd`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/pulse-releases/releases/download/v3.3.0/Pulse-3.3.0.dmg" length="43386163" type="application/octet-stream" sparkle:edSignature="0GWXnOzK8TZAJM5a0ZhgHkBHdprCqPuMiDo6t+tCr5Vy4AMLVWtNmCg/g9yMR7EuxxZZG4t1/YuFmbPM8LaXBQ=="/>
+    </item>
+    <item>
       <title>Pulse 3.2.0</title>
       <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v3.2.0</link>
       <pubDate>Mon, 16 Nov 2026 04:33:30 +0000</pubDate>
