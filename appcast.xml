@@ -6,6 +6,55 @@
     <description>Pulse for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Pulse 3.2.0</title>
+      <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v3.2.0</link>
+      <pubDate>Mon, 16 Nov 2026 04:33:30 +0000</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>3.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/pulse-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- chore: 3.2.0 — phone hub and file transfer, instant hotspot, writing style, Liquid Glass flyout, keep-awake fixes, T3 harness
+- chore(remote-app): 1.2.0+3 — phone hub, files, hotspot, updater, sync, mirroring
+- fix(remote): the native tests' host app never listens or reads the paired-phone Keychain item
+- test(remote): Phone hub live harness with the Mac side in the debug test host
+- test: the Phone section is the last default section
+- test(panel): refresh dropdown goldens after the Controls list gained Instant hotspot and T3 Code
+- test(t3): const key in page test
+- feat(remote): protocol docs for the Phone hub and Files; debug-only harness hooks; phone hub harness
+- test(remote-app): transfers, hub, path safety, resume; Files screens in EN/TR at 320/360
+- docs: T3 Code integration and protocol note
+- feat(t3): PULSE_T3 debug e2e switch, gated isolated-server e2e test with screenshots; fix socket send while closing and project picker overflow
+- fix(remote-app): hotspot scan throttle survives a process restart; Shizuku waited for before reading the password; a refused foreground start ends cleanly; a 'checking' notice during the handshake
+- test(remote): Phone tab in EN/TR, phone data, files options, Phone actions; row grid instead of fixed-aspect tiles
+- feat(remote-app): Settings › Instant hotspot (per-Mac switch, ask/silent, password source, auto-off, Shizuku guide)
+- fix(remote): reading paired phones never freezes Pulse or overwrites them
+- feat(panel): PULSE_FLYOUT debug switch, readable solid pill on dark glass, dropdown fallback position
+- wip(remote-app): Phone hub and file transfer on the phone (Dart, Android, iOS)
+- test(t3): EN/TR widget tests at the smallest sizes (T3 tab, menu bar section, notch strip), launcher and logic tests; notch strip fits Turkish
+- feat(remote-app): Instant hotspot on Android (BLE wake, handshake, Shizuku tethering, auto-off)
+- docs(memory): Double Tap writing-style model, settings and learning loop
+- test(t3): fake Effect-RPC T3 server; socket, auth, reducers, link and approval-flow tests
+- feat(hotspot): Instant hotspot tool on the Mac (BLE ask, HMAC handshake, join, beats)
+- docs: Instant hotspot protocol v1 and shared test vectors
+- test(draft): style profile, exemplar picker, incremental cache, edit diff and lessons, prompt snapshot, settings, feedback loop, style card (EN/TR); native ⌥Return redraft
+- fix(remote): hashing at end of file; a failed hash answers files.pull
+- feat(t3): menu bar live section with quick approve, launcher ask/jump commands, Quick actions, notch request peeks and agents-page approvals
+- fix(awake): prove the lid rule by running it, and reuse an existing pmset rule
+- feat(t3): T3 tab (live threads, inbox, streaming thread view, composer), T3 Code tool settings, native shortcuts and Approve/Deny notifications
+- feat(t3): T3 Code protocol client core — RPC socket, auth, shell and thread reducers, commands
+- wip(remote): Phone tab and file transfer on the Mac (native + Dart)
+- feat(panel): Liquid Glass flyout style — scheme-aware colour tokens, glass palette, native glass backdrop
+- feat(draft): writing-style model for Double Tap — incremental sample cache, diverse exemplars within a budget, general profile, style rules, learning from edits, ⌥Return more like me, style settings
+- fix(awake): keep awake with the lid closed, only while plugged in, and say when the Mac slept anyway
+
+SHA-256: `f4219d688523c77f835a9a5938423448477dc44e7256f903099f471ece963969`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/pulse-releases/releases/download/v3.2.0/Pulse-3.2.0.dmg" length="43024024" type="application/octet-stream" sparkle:edSignature="slmRDoDrjOoM2IxChK+MPEDPB9NTxqwPoZgrDn0/c+bcu9kE5qE+F1HNFIJo4oTRaRzWquNqUpDR7Cp7I994Bg=="/>
+    </item>
+    <item>
       <title>Pulse 3.1.0</title>
       <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v3.1.0</link>
       <pubDate>Sun, 15 Nov 2026 21:00:20 +0000</pubDate>
