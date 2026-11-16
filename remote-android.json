@@ -1,10 +1,10 @@
 {
-  "version": "1.3.0",
-  "build": 4,
-  "url": "https://github.com/Kutu-Yazilim/pulse-releases/releases/download/remote-v1.3.0/PulseRemote-1.3.0.apk",
-  "sha256": "9557003035cae2bc60e3e2fde08ad16814bf704e0b9cab7c509ffc882e12d0dd",
-  "size": 75286555,
-  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/remote-v1.3.0",
-  "notes": "Pulse Remote for Android — control your Mac running Pulse from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Pulse › Tools › Pulse Remote, turn it on and scan the code.\n\n## Changes\n\n- test(remote-app): the settings page scrolls through the new Files on this phone section\n- test(remote-app): browsing server, browser, settings and screens; live browse harness; 1.3.0+4\n- feat(remote-app): browse the Mac's files and let the Mac browse this phone\n- feat(remote): phones browse and change Mac files, the Mac browses phones (native)\n- feat(remote-app): browsing core — protocol names, paged listing, confined phone storage, browse.request handler\n- docs(remote): two-way file browsing protocol (Browsing, 3.3 / Remote 1.3)\n\nVersion 1.3.0 (build 4) · SHA-256: `9557003035cae2bc60e3e2fde08ad16814bf704e0b9cab7c509ffc882e12d0dd`\n",
-  "published": "2026-11-16T13:05:36Z"
+  "version": "1.3.1",
+  "build": 5,
+  "url": "https://github.com/Kutu-Yazilim/pulse-releases/releases/download/remote-v1.3.1/PulseRemote-1.3.1.apk",
+  "sha256": "56e66635a00e211291e163719b4fb3295f144e37e258eed2fbdbe78dadc65295",
+  "size": 75286695,
+  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/remote-v1.3.1",
+  "notes": "Pulse Remote for Android — control your Mac running Pulse from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Pulse › Tools › Pulse Remote, turn it on and scan the code.\n\n## Changes\n\n- feat(remote-app): waiting state, refusal reasons with hints, trust shown (Pulse Remote 1.3.1+5)\n\nVersion 1.3.1 (build 5) · SHA-256: `56e66635a00e211291e163719b4fb3295f144e37e258eed2fbdbe78dadc65295`\n",
+  "published": "2026-11-16T13:44:54Z"
 }
