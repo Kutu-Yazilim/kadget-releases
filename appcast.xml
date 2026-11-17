@@ -6,6 +6,24 @@
     <description>Pulse for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Pulse 3.3.2</title>
+      <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v3.3.2</link>
+      <pubDate>Tue, 17 Nov 2026 07:20:50 +0000</pubDate>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>3.3.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/pulse-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- chore: 3.3.2 — reduce CPU, IPC, and UI rendering overhead
+- perf: reduce CPU, IPC, and UI rendering overhead
+
+SHA-256: `c35de1d8e1212d62a5cc849af0904b65062365baf1b78df73fc9486656549ff9`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/pulse-releases/releases/download/v3.3.2/Pulse-3.3.2.dmg" length="43534695" type="application/octet-stream" sparkle:edSignature="wCIM5jhy36twQ32C1kvRcp10sZ7xJw8hocJfQpOxuekOSAa+E82JfxlgzU1BBMUEkflXZlecz77kCUP5d3R5Aw=="/>
+    </item>
+    <item>
       <title>Pulse 3.3.1</title>
       <link>https://github.com/Kutu-Yazilim/pulse-releases/releases/tag/v3.3.1</link>
       <pubDate>Mon, 16 Nov 2026 13:43:35 +0000</pubDate>
