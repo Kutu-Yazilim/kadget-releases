@@ -24,7 +24,7 @@
 
   const addShelfBtn = document.getElementById('btn-add-shelf-file');
   const shelfList = document.getElementById('shelf-chip-list');
-  const sampleShelfFiles = ['DESIGN.md', 'pulse-mcp', 'metrics-dump.json'];
+  const sampleShelfFiles = ['DESIGN.md', 'kadget-mcp', 'metrics-dump.json'];
   let shelfIdx = 0;
 
   if (addShelfBtn && shelfList) {
@@ -43,7 +43,7 @@
     const badge = document.getElementById(badgeId);
     if (!btn || !badge) return;
     btn.addEventListener('click', () => {
-      const cmd = btn.getAttribute('data-command') || 'brew install --cask kutuyazilim/tap/kutu-pulse';
+      const cmd = btn.getAttribute('data-command') || 'brew install --cask kutuyazilim/tap/kutu-kadget';
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(cmd).catch(() => {});
       }
@@ -143,7 +143,7 @@
       if (agentTitle) agentTitle.textContent = 'Threshold Trigger Armed: RAM > 80% for 30s';
       if (agentState) agentState.textContent = `STANDBY · ${ramPct}% RAM`;
       if (agentDesc) {
-        agentDesc.textContent = 'Drag the thermal scrubber past 80°C (or click "Trip RAM > 80%") to watch the Kasi palette shift toward thermal amber and wake Pulse\'s diagnostic Claude agent.';
+        agentDesc.textContent = 'Drag the thermal scrubber past 80°C (or click "Trip RAM > 80%") to watch the Kasi palette shift toward thermal amber and wake Kadget\'s diagnostic Claude agent.';
       }
       if (agentActionRow) agentActionRow.hidden = true;
       if (notchAgentState) notchAgentState.textContent = 'Idle · 03:00';
@@ -215,7 +215,7 @@
           privacyHeadline.textContent = 'Active Mode: This Mac Only (Apple On-Device / Ollama Gemma)';
         }
         if (privacyDetail) {
-          privacyDetail.textContent = '100% local execution. Summarizes chats with per-chat checkpoint resume and writes Markdown pages directly to ~/Pulse Knowledge without network calls.';
+          privacyDetail.textContent = '100% local execution. Summarizes chats with per-chat checkpoint resume and writes Markdown pages directly to ~/Kadget Knowledge without network calls.';
         }
       } else {
         if (privacyHeadline) {
@@ -260,17 +260,17 @@
 
   const graphNodes = [
     {
-      id: 'pulse',
-      label: 'Pulse 2.0',
+      id: 'kadget',
+      label: 'Kadget 2.0',
       x: 370,
       y: 165,
       r: 11,
       color: '#ff9a5a',
-      path: '~/Pulse Knowledge/projects/pulse-2-0.md',
-      title: 'Pulse 2.0 (macOS Companion)',
-      summary: 'Published v2.0.0 (Build 12) to Kutu-Yazilim/pulse-releases with edSignature Sparkle appcast and Homebrew tap kutuyazilim/tap/kutu-pulse.',
+      path: '~/Kadget Knowledge/projects/kadget-2-0.md',
+      title: 'Kadget 2.0 (macOS Companion)',
+      summary: 'Published v2.0.0 (Build 12) to Kutu-Yazilim/kadget-releases with edSignature Sparkle appcast and Homebrew tap kutuyazilim/tap/kutu-kadget.',
       links: 'Linked nodes: [[Utku]] · [[T3 Code]] · [[Kutu Yazılım]] · [[Brew Tap]]',
-      sources: ['T3 Code: Pulse-tools2', 'Dev Folder: ~/Developer/KutuYazilim', 'WhatsApp Direct (90d)']
+      sources: ['T3 Code: Kadget-tools2', 'Dev Folder: ~/Developer/KutuYazilim', 'WhatsApp Direct (90d)']
     },
     {
       id: 'utku',
@@ -279,10 +279,10 @@
       y: 110,
       r: 10,
       color: '#ffd2b8',
-      path: '~/Pulse Knowledge/people/utku.md',
+      path: '~/Kadget Knowledge/people/utku.md',
       title: 'Utku — Founder & Systems Architect',
       summary: 'Maintains two active Claude subscriptions inside T3 Code, builds native macOS utilities at Kutu Yazılım, and runs nightly local Gemma vault synthesis at 03:00.',
-      links: 'Linked nodes: [[Pulse 2.0]] · [[Kutu Yazılım]] · [[T3 Code]]',
+      links: 'Linked nodes: [[Kadget 2.0]] · [[Kutu Yazılım]] · [[T3 Code]]',
       sources: ['Apple Mail', 'Calendar (-7d to +31d)', 'T3 Code Threads']
     },
     {
@@ -292,10 +292,10 @@
       y: 105,
       r: 9,
       color: '#6eb4f0',
-      path: '~/Pulse Knowledge/tools/t3-code.md',
+      path: '~/Kadget Knowledge/tools/t3-code.md',
       title: 'T3 Code Workspace & Multi-Account Setup',
-      summary: 'Primary AI engineering harness wired to Dual Claude logins, Codex, and Antigravity. Pulse deep-links recent project threads straight into T3 Code on click.',
-      links: 'Linked nodes: [[Pulse 2.0]] · [[Utku]] · [[pulse-mcp]]',
+      summary: 'Primary AI engineering harness wired to Dual Claude logins, Codex, and Antigravity. Kadget deep-links recent project threads straight into T3 Code on click.',
+      links: 'Linked nodes: [[Kadget 2.0]] · [[Utku]] · [[kadget-mcp]]',
       sources: ['~/.t3/userdata', 'T3 User Messages', 'Keychain OAuth']
     },
     {
@@ -305,10 +305,10 @@
       y: 245,
       r: 9,
       color: '#5fc690',
-      path: '~/Pulse Knowledge/orgs/kutu-yazilim.md',
+      path: '~/Kadget Knowledge/orgs/kutu-yazilim.md',
       title: 'Kutu Yazılım — Release & Tap Infrastructure',
-      summary: 'Hosts Kutu-Yazilim/pulse-releases and the kutuyazilim/tap Homebrew cask repository with automated EdDSA Sparkle signing.',
-      links: 'Linked nodes: [[Pulse 2.0]] · [[Brew Tap]] · [[Utku]]',
+      summary: 'Hosts Kutu-Yazilim/kadget-releases and the kutuyazilim/tap Homebrew cask repository with automated EdDSA Sparkle signing.',
+      links: 'Linked nodes: [[Kadget 2.0]] · [[Brew Tap]] · [[Utku]]',
       sources: ['GitHub Releases', 'Apple Mail', 'Reminders']
     },
     {
@@ -318,10 +318,10 @@
       y: 240,
       r: 8,
       color: '#ebb352',
-      path: '~/Pulse Knowledge/sources/whatsapp-checkpoint.md',
+      path: '~/Kadget Knowledge/sources/whatsapp-checkpoint.md',
       title: 'WhatsApp 90-Day Checkpoint Index',
       summary: 'Separates direct conversations from group noise over a rolling 90-day window. Checkpoints per chat so interrupted nightly runs resume cleanly.',
-      links: 'Linked nodes: [[Pulse 2.0]] · [[Brief Cards]]',
+      links: 'Linked nodes: [[Kadget 2.0]] · [[Brief Cards]]',
       sources: ['WhatsApp Local DB', 'On-Device Summarizer']
     },
     {
@@ -331,26 +331,26 @@
       y: 280,
       r: 8,
       color: '#c9a7f5',
-      path: '~/Pulse Knowledge/ops/homebrew-tap.md',
-      title: 'Homebrew Cask: kutuyazilim/tap/kutu-pulse',
-      summary: 'Delivers one-command CLI installation and upgrades for Pulse 2.0.0 alongside Sparkle in-app updates.',
-      links: 'Linked nodes: [[Pulse 2.0]] · [[Kutu Yazılım]]',
-      sources: ['~/Developer/KutuYazilim', 'T3 Code: pulse-releases']
+      path: '~/Kadget Knowledge/ops/homebrew-tap.md',
+      title: 'Homebrew Cask: kutuyazilim/tap/kutu-kadget',
+      summary: 'Delivers one-command CLI installation and upgrades for Kadget 2.0.0 alongside Sparkle in-app updates.',
+      links: 'Linked nodes: [[Kadget 2.0]] · [[Kutu Yazılım]]',
+      sources: ['~/Developer/KutuYazilim', 'T3 Code: kadget-releases']
     }
   ];
 
   const graphEdges = [
-    ['pulse', 'utku'],
-    ['pulse', 't3code'],
-    ['pulse', 'kutu'],
-    ['pulse', 'whatsapp'],
-    ['pulse', 'brewtap'],
+    ['kadget', 'utku'],
+    ['kadget', 't3code'],
+    ['kadget', 'kutu'],
+    ['kadget', 'whatsapp'],
+    ['kadget', 'brewtap'],
     ['utku', 'kutu'],
     ['utku', 't3code'],
     ['kutu', 'brewtap']
   ];
 
-  let selectedNodeId = 'pulse';
+  let selectedNodeId = 'kadget';
   let filterQuery = '';
 
   function drawKnowledgeGraph() {
@@ -466,9 +466,9 @@
   const doubleTapArea = document.getElementById('double-tap-textarea');
   const triggerDoubleTapBtn = document.getElementById('btn-trigger-double-tap');
   const resetDoubleTapBtn = document.getElementById('btn-reset-double-tap');
-  const initialPromptText = 'Hey! Did we already sign the Sparkle appcast for Pulse 2.0 and update the Homebrew cask?';
+  const initialPromptText = 'Hey! Did we already sign the Sparkle appcast for Kadget 2.0 and update the Homebrew cask?';
   const draftedReplyText =
-    'Hey! Did we already sign the Sparkle appcast for Pulse 2.0 and update the Homebrew cask?\n\n— Drafted by Pulse Double Tap (Right Cmd ×2):\nYes, v2.0.0 (Build 12) is signed with our EdDSA key in appcast.xml and live on kutuyazilim/tap/kutu-pulse.';
+    'Hey! Did we already sign the Sparkle appcast for Kadget 2.0 and update the Homebrew cask?\n\n— Drafted by Kadget Double Tap (Right Cmd ×2):\nYes, v2.0.0 (Build 12) is signed with our EdDSA key in appcast.xml and live on kutuyazilim/tap/kutu-kadget.';
 
   if (triggerDoubleTapBtn && doubleTapArea) {
     triggerDoubleTapBtn.addEventListener('click', () => {
