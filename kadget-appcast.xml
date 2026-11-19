@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Kadget</title>
+    <link>https://github.com/Kutu-Yazilim/kadget-releases</link>
+    <description>Kadget for macOS: release feed for in-app updates.</description>
+    <language>en</language>
+    <item>
+      <title>Kadget 3.4.0</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.4.0</link>
+      <pubDate>Thu, 19 Nov 2026 07:31:59 +0000</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>3.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- chore: 3.4.0 — Pulse is now Kadget; no crash on wake, services run after a background relaunch
+- fix: survive Bluetooth waking up, and run after a background relaunch
+- fix(site): download links go to the latest release
+- fix(migration): set stray Kadget folders aside, retry failed moves, safer MCP swap
+- chore(tool): release scripts find a releases checkout made before the rename
+- fix(migration): rewrite settings only when they change; README: coming from Pulse
+- feat: bring a Pulse install's data across to Kadget on first launch
+- chore: rename Pulse to Kadget (mechanical sweep)
+
+SHA-256: `ff8fd13de2530155ff9dbf184ffd5a49de60b9e3b6596f3ce9448999be2c29d0`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.4.0/Kadget-3.4.0.dmg" length="43596396" type="application/octet-stream" sparkle:edSignature="E0iS82K9FDIKbBF0qoSEMcJW33ye/cvlmxKtxCfuC5eOHfVHCTCGloNUULKMOlk4Qjso7bvwcRlljwQ5oDyADw=="/>
+    </item>
+  </channel>
+</rss>
