@@ -1,0 +1,10 @@
+{
+  "version": "1.4.0",
+  "build": 6,
+  "url": "https://github.com/Kutu-Yazilim/kadget-releases/releases/download/remote-v1.4.0/KadgetRemote-1.4.0.apk",
+  "sha256": "e21cc84e09632d3d443102d89471c5d54ef2935974c0ecd970ec140753f6f614",
+  "size": 75303083,
+  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/remote-v1.4.0",
+  "notes": "Kadget Remote for Android — control your Mac running Kadget from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Kadget › Tools › Kadget Remote, turn it on and scan the code.\n\n## Changes\n\n- chore: 3.4.0 — Pulse is now Kadget; no crash on wake, services run after a background relaunch\n- chore: rename Pulse to Kadget (mechanical sweep)\n\nVersion 1.4.0 (build 6) · SHA-256: `e21cc84e09632d3d443102d89471c5d54ef2935974c0ecd970ec140753f6f614`\n",
+  "published": "2026-11-19T07:34:33Z"
+}
