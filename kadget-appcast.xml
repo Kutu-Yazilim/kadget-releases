@@ -6,6 +6,23 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.8.1</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.8.1</link>
+      <pubDate>Mon, 23 Nov 2026 23:09:27 +0000</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>3.8.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- fix(remote): a closed terminal frees its fd only after its read source (the next terminal kept losing output); terminal output backpressure; streamed app comes forward for typing and scrolling too; /v1/ice mints TURN only for accounts with a Mac, 60 an hour (3.8.1)
+
+SHA-256: `05cefba40e583c67b9d3099dcbf3af28c32a8fb19d78571f38071cfdabc7f0c1`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.8.1/Kadget-3.8.1.dmg" length="59909698" type="application/octet-stream" sparkle:edSignature="wF7INGPr4+nZmbB4IsH2xeiIBitBUticTbbTkXX2bH5AslqaZ7w8E/MwSzcCMFz+zrvLgqXDj0Mg6OqauMO6CA=="/>
+    </item>
+    <item>
       <title>Kadget 3.8.0</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.8.0</link>
       <pubDate>Mon, 23 Nov 2026 22:53:48 +0000</pubDate>
