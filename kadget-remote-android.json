@@ -1,10 +1,10 @@
 {
-  "version": "1.7.0",
-  "build": 9,
-  "url": "https://github.com/Kutu-Yazilim/kadget-releases/releases/download/remote-v1.7.0/KadgetRemote-1.7.0.apk",
-  "sha256": "4b3438474220ef3e091f12c6544e23ec5b4dc87a1ec90157aad390f7082251ca",
-  "size": 113746772,
-  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/remote-v1.7.0",
-  "notes": "Kadget Remote for Android — control your Mac running Kadget from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Kadget › Tools › Kadget Remote, turn it on and scan the code.\n\n## Changes\n\n- feat: Kadget 3.7.0 / Kadget Remote 1.7.0 — WebRTC screen, input and mirror; protocol doc; remote tracks always come with a stream\n- feat(remote-app): WebRTC screen view with input on a data channel, WebRTC phone mirror, ICE servers from Kadget Cloud; JPEG frames stay as the fallback\n\nVersion 1.7.0 (build 9) · SHA-256: `4b3438474220ef3e091f12c6544e23ec5b4dc87a1ec90157aad390f7082251ca`\n",
-  "published": "2026-11-23T22:12:13Z"
+  "version": "1.8.0",
+  "build": 10,
+  "url": "https://github.com/Kutu-Yazilim/kadget-releases/releases/download/remote-v1.8.0/KadgetRemote-1.8.0.apk",
+  "sha256": "27f15658bf7e2d54d71fefad660d4e128ca20833286ac2aaa3cc36d09fa884dc",
+  "size": 117650677,
+  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/remote-v1.8.0",
+  "notes": "Kadget Remote for Android — control your Mac running Kadget from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Kadget › Tools › Kadget Remote, turn it on and scan the code.\n\n## Changes\n\n- feat: Kadget 3.8.0 / Remote 1.8.0 — terminal on the Mac from the phone, app window streaming, Meslo Nerd Font for prompts; protocol doc\n\nVersion 1.8.0 (build 10) · SHA-256: `27f15658bf7e2d54d71fefad660d4e128ca20833286ac2aaa3cc36d09fa884dc`\n",
+  "published": "2026-11-23T22:56:15Z"
 }
