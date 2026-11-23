@@ -6,6 +6,24 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.9.0</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.9.0</link>
+      <pubDate>Mon, 23 Nov 2026 23:46:40 +0000</pubDate>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>3.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- feat: Kadget 3.9.0 / Remote 1.9.0 — local servers and SSH through tunnels (capability ports), screen stats badge, fps measurements (direct and Cloudflare TURN), WebRTC mirror test, ports harness
+- docs: MEMORY.md covers 3.7.0–3.8.1 (WebRTC Remote, terminal, app streaming)
+
+SHA-256: `69991885b4f34d6587f515cbb190c4a9c550b7b7cb984902282c7fb2c2cc45e7`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.9.0/Kadget-3.9.0.dmg" length="59950451" type="application/octet-stream" sparkle:edSignature="gtMsAl9wh20LH2VmcIdizdKG45Rkfo/2o2mCmezsXerqsETjblDXcTnZYqcS6IckKkTp48CPq6i87Apox4nZBQ=="/>
+    </item>
+    <item>
       <title>Kadget 3.8.1</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.8.1</link>
       <pubDate>Mon, 23 Nov 2026 23:09:27 +0000</pubDate>
