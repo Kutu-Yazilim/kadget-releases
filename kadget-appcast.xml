@@ -6,6 +6,28 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.7.0</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.7.0</link>
+      <pubDate>Mon, 23 Nov 2026 22:09:23 +0000</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>3.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- chore(remote): KADGET_REMOTE_NO_ASK debug switch so a harness can drive a whole WebRTC session
+- feat: Kadget 3.7.0 / Kadget Remote 1.7.0 — WebRTC screen, input and mirror; protocol doc; remote tracks always come with a stream
+- fix(remote): candidates wait for the offer on the Mac; WebRTC screen session test end to end (connect, H.264 frames, input channel)
+- feat(remote-app): WebRTC screen view with input on a data channel, WebRTC phone mirror, ICE servers from Kadget Cloud; JPEG frames stay as the fallback
+- feat(remote): WebRTC screen, input and mirror sessions on the Mac (rtc.offer/candidate/stop, H.264 via VideoToolbox, input data channel)
+- feat(backend): /v1/ice serves Cloudflare STUN and short-lived TURN credentials for WebRTC Remote sessions
+
+SHA-256: `052aa7b924ba0ee0fc7690ac27cc7cbc669c6116c576021b0f01d86fc3d5ef63`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.7.0/Kadget-3.7.0.dmg" length="59925388" type="application/octet-stream" sparkle:edSignature="Gq5NW/HLp52hVbKR0eymeexBYUzGbS8/mS+QMBKbvVKTueifLsklwffE31VFn3e1ltwRwcVcqCCjZ3xrXZJOAA=="/>
+    </item>
+    <item>
       <title>Kadget 3.6.0</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.6.0</link>
       <pubDate>Mon, 23 Nov 2026 17:24:37 +0000</pubDate>
