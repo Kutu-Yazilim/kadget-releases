@@ -1,10 +1,10 @@
 {
-  "version": "1.8.0",
-  "build": 10,
-  "url": "https://github.com/Kutu-Yazilim/kadget-releases/releases/download/remote-v1.8.0/KadgetRemote-1.8.0.apk",
-  "sha256": "27f15658bf7e2d54d71fefad660d4e128ca20833286ac2aaa3cc36d09fa884dc",
-  "size": 117650677,
-  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/remote-v1.8.0",
-  "notes": "Kadget Remote for Android — control your Mac running Kadget from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Kadget › Tools › Kadget Remote, turn it on and scan the code.\n\n## Changes\n\n- feat: Kadget 3.8.0 / Remote 1.8.0 — terminal on the Mac from the phone, app window streaming, Meslo Nerd Font for prompts; protocol doc\n\nVersion 1.8.0 (build 10) · SHA-256: `27f15658bf7e2d54d71fefad660d4e128ca20833286ac2aaa3cc36d09fa884dc`\n",
-  "published": "2026-11-23T22:56:15Z"
+  "version": "1.9.0",
+  "build": 11,
+  "url": "https://github.com/Kutu-Yazilim/kadget-releases/releases/download/remote-v1.9.0/KadgetRemote-1.9.0.apk",
+  "sha256": "8a7931a710d2ddbdfe67a57532fb43cbbe87a15dd3c6003a4e79e8d49b37c7f4",
+  "size": 122124721,
+  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/remote-v1.9.0",
+  "notes": "Kadget Remote for Android — control your Mac running Kadget from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Kadget › Tools › Kadget Remote, turn it on and scan the code.\n\n## Changes\n\n- feat: Kadget 3.9.0 / Remote 1.9.0 — local servers and SSH through tunnels (capability ports), screen stats badge, fps measurements (direct and Cloudflare TURN), WebRTC mirror test, ports harness\n\nVersion 1.9.0 (build 11) · SHA-256: `8a7931a710d2ddbdfe67a57532fb43cbbe87a15dd3c6003a4e79e8d49b37c7f4`\n",
+  "published": "2026-11-23T23:49:29Z"
 }
