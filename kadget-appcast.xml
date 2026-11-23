@@ -6,6 +6,25 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.8.0</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.8.0</link>
+      <pubDate>Mon, 23 Nov 2026 22:53:48 +0000</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>3.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- test(remote): rtc.* is checked per kind; terminal methods need the terminal capability
+- feat: Kadget 3.8.0 / Remote 1.8.0 — terminal on the Mac from the phone, app window streaming, Meslo Nerd Font for prompts; protocol doc
+- feat(remote): terminal on the Mac for the phone (capability terminal, PTY login shell, batched output); WebRTC app-window streaming opens the app in the background and follows its window
+
+SHA-256: `14b0a222535acf19fd1dc25774efa232a53cff920335e092d8fe81f907bd74db`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.8.0/Kadget-3.8.0.dmg" length="59903753" type="application/octet-stream" sparkle:edSignature="RYR0rS0qXUWXkcgSgZDAhH3km371i1uBI9tKslmNf0fkbzZnSaI5ZsGhZej3ED041sMzwiv5djhE8GDXZn4fBA=="/>
+    </item>
+    <item>
       <title>Kadget 3.7.0</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.7.0</link>
       <pubDate>Mon, 23 Nov 2026 22:09:23 +0000</pubDate>
