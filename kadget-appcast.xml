@@ -6,6 +6,104 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.5.0</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.5.0</link>
+      <pubDate>Mon, 23 Nov 2026 06:42:29 +0000</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>3.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- fix(remote-app): "can't reach the Mac" no longer blames Tailscale alone
+- chore: 3.5.0 (Kadget Remote 1.5.0) on the branch; MEMORY.md covers Kadget Cloud and Tools 4
+- fix(remote-app): every pairing exit that saves nothing gives the Mac's token back
+- fix(workflows): chord button reads its words once; paste tests drop the Bool
+- fix(wallpaper): rounds forget what is gone; the watch starts before the walk; Bing files move off main
+- fix(workflows): pastes follow their run; one log entry per held key; app triggers ignore the group's app lists
+- fix(cloud-phone): a No sends the token only over the pairing's live connection
+- docs(cloud): the phone loopback tunnel's accepted residual
+- fix(cloud-phone): pairing again replaces the old token silently; No revokes an issued token
+- fix(cloud-phone): a stream starting on a shared tunnel keeps a failed hello's reason
+- fix(workflows): a recording cancelled while pausing never starts
+- fix(cloud-security): keep paired phone names with their digits; pairing questions stay in view
+- fix(wallpaper): rounds, rescans and Bing stay put
+- fix(workflows): clashes block only the newcomer; scripts stop with their children
+- fix(windows): Finder can be added to the ignored apps
+- fix(launcher): the panel never stays up without focus
+- fix(cloud-reliability): phone relay tunnel listens only while used, probes long enough, reports the right reason
+- fix(cloud-security): the phone keeps a relay pairing only after it confirms the code
+- fix(cloud-security): release builds of the Mac app ignore KADGET_CLOUD_URL
+- fix(cloud-reliability): wakes and path changes no longer fight a replaced control socket
+- fix(cloud-security): the Mac's pairing alert leads with the code; relay token streams throttle alone
+- fix(cloud-reliability): a Mac signing out no longer reads as the phone's sign-out
+- fix(cloud-security): count password checks before they run and bound the hasher queue
+- docs(spec): the workflow fallback narrows to the Workflows scope
+- feat(launcher): workflows in the launcher — Run rows, the ⌘P Workflows scope and its fallback
+- fix(workflows): scripts never wait for EOF after exit; stale workflow pins are skipped; modes line tested
+- test(workflows): menu dropdown goldens gain the Workflows switch row
+- feat(workflows): Tools › Workflows page and editor sheet, EN and TR
+- feat(workflows): service, pins, launcher rows, starters, import/export, editor draft
+- feat(workflows): native engine, key tap, runners, hint HUD
+- fix(launcher): a clipboard item pastes only after the panel hid; FSEvents rebuilds the app index at once; the mounted launcher never takes focus before its first show; a file picker opened from a dropdown keeps it
+- feat(workflows): model, validation, routing and the versioned import/export format
+- test(launcher): unit-level speed budget for ranking and the warm (mounted) show
+- test(launcher): EN and TR widget tests for the ⌘P dropdown, the ⌘K favourite and alias items, the new settings rows and panel field focus
+- feat(clipboard): type filter dropdown (⌘P, Raycast's order and keys; pin moves to ⇧⌘P); feat(launcher): settings for Show on, Keep the last search, sensitivity, search history and fallbacks
+- fix(remote): a migrated Mac gets its own Remote id
+- feat(account): Delete account on the Mac (password asked again)
+- test(launcher): ranking tiers, learned picks, fallbacks, scopes, timer 10m, Esc, ⌘P, aliases, favourites, history and pop to root
+- fix(wallpaper): re-set screens after a display mode switch or a new display; Bing waits for the saved state
+- feat(launcher): Raycast ranking (aliases, title, keywords, frecency, learned picks), fallbacks, ⌘P scopes, favourites, search history, alias entry; the launcher stays mounted and pops to root on hide
+- test(wallpaper): Bing market test; menu dropdown goldens gain the Wallpaper switch row
+- feat(wallpaper): natives for folders, Bing, shuffle bag, schedule, history, all Spaces
+- feat(wallpaper): settings, page, Quick actions and launcher entries for Next and Previous
+- feat(launcher): typo tier, search sensitivity, learned picks, aliases, favourites, search history, and the new launcher settings (models)
+- feat(launcher): panel focus policy (close on resign key, app switch, Space, lock, sleep), key check with one retry, hotkey toggle/move, Show on, FSEvents app index
+- feat(remote): delete the Kadget account from Settings, the password asked again
+- fix(remote): signed-out relay-only Macs say so, a relay sign-out ends the account, crypto errors stay inside the stream
+- feat(cloud): DELETE /v1/me deletes the account (password asked again)
+- fix(cloud-mac): re-push only a token Kadget Cloud confirmed; e2e covers 401, unknown device, 1008 ktun1; relay half of RemoteBridge in its own file
+- feat(remote): Kadget account screens, Connect over the relay, and the route in the session
+- feat(remote): account state, routes and relay pairing
+- fix(account): Settings › Kadget account below the agent section (keeps the agent controls in view at the smallest window)
+- fix(cloud): provisioner creates the DNS record before the domain
+- feat(account): Kadget Cloud account in Settings, Reach this Mac from anywhere on the Remote page
+- feat(remote): AccountApi and the relay end-to-end proof against the Go backend
+- feat(remote): RelayTunnel, a loopback port to a Mac through Kadget Cloud
+- feat(remote): KTun1 in Dart, the phone role, byte for byte with the shared vectors
+- test(cloud-mac): end-to-end Remote through a local Kadget Cloud (tool/relay_e2e.sh)
+- fix(cloud): provisioner sends a plain User-Agent (Cloudflare 1010)
+- feat(cloud-mac): relay transport, RemoteRelay client, account pairing over KTun1
+- chore(cloud): idempotent Dokploy + Cloudflare provisioning for kadget-api
+- fix(windows): a wrap never sends a vertical repeat to a display beside the window
+- feat(cloud-mac): KTun1 in Swift (Mac role, token + pair modes) with the shared vectors
+- fix(windows): a frame Kadget gave another action is not a geometric repeat
+- fix(cloud): open writes outlive the phone's request; probe secrets from env only
+- feat(windows): repeat picker, layout replay and pointer options, ignored apps, new actions on the page
+- feat(cloud): relay probe, Dockerfile, Makefile and README
+- feat(windows): Rectangle repeat modes, spatial neighbours, moves, sixths, tile and cascade
+- feat(cloud): accounts, clients and the relay API
+- feat(cloud): KTun1 reference, shared vectors, and the account store
+- docs(spec): launcher section from Raycast's manual
+- docs(spec): workflows section from KeyboardCowboy's source
+- docs(spec): windows section from Rectangle's source
+- docs(spec): Tools 4 and Kadget Cloud
+- feat(knowledge 3.1): extended learning reads whole chats for relationships
+- fix(knowledge 3): review work by its own time, close only learned tasks, mask tool results
+- feat(assistant): Next up on the home page; Double Tap knows the user's facts
+- feat(knowledge): Tasks and You views
+- feat(knowledge): learn project tasks nightly from coding threads and repos
+- feat(assistant): chat is a personal assistant with what Kadget knows
+- feat(assistant): tools for tasks, facts, the Brief and next steps
+- feat(knowledge): tasks and facts tables; facts count as About me
+
+SHA-256: `84c6804626d79e616ad6e3afb18168470a21a126ce8d1d232797f553d56ed674`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.5.0/Kadget-3.5.0.dmg" length="45083632" type="application/octet-stream" sparkle:edSignature="V+B1bQlr3ry/Kk9V+hxfu6hPIFmiyjPtp5F7EclBjR6D698+gBNbRBHHOIvKKneyd3Kmriphp9DdAmuZ+V9WDQ=="/>
+    </item>
+    <item>
       <title>Kadget 3.4.1</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.4.1</link>
       <pubDate>Thu, 19 Nov 2026 09:32:25 +0000</pubDate>
