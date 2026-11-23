@@ -1,10 +1,10 @@
 {
-  "version": "1.4.0",
-  "build": 6,
-  "url": "https://github.com/Kutu-Yazilim/kadget-releases/releases/download/remote-v1.4.0/KadgetRemote-1.4.0.apk",
-  "sha256": "e21cc84e09632d3d443102d89471c5d54ef2935974c0ecd970ec140753f6f614",
-  "size": 75303083,
-  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/remote-v1.4.0",
-  "notes": "Kadget Remote for Android — control your Mac running Kadget from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Kadget › Tools › Kadget Remote, turn it on and scan the code.\n\n## Changes\n\n- chore: 3.4.0 — Pulse is now Kadget; no crash on wake, services run after a background relaunch\n- chore: rename Pulse to Kadget (mechanical sweep)\n\nVersion 1.4.0 (build 6) · SHA-256: `e21cc84e09632d3d443102d89471c5d54ef2935974c0ecd970ec140753f6f614`\n",
-  "published": "2026-11-19T07:34:33Z"
+  "version": "1.5.0",
+  "build": 7,
+  "url": "https://github.com/Kutu-Yazilim/kadget-releases/releases/download/remote-v1.5.0/KadgetRemote-1.5.0.apk",
+  "sha256": "870f93df5647e1711320edd0f78cfa972218981569c46b2aa580a3072c94c088",
+  "size": 76352187,
+  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/remote-v1.5.0",
+  "notes": "Kadget Remote for Android — control your Mac running Kadget from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Kadget › Tools › Kadget Remote, turn it on and scan the code.\n\n## Changes\n\n- fix(remote-app): \"can't reach the Mac\" no longer blames Tailscale alone\n- chore: 3.5.0 (Kadget Remote 1.5.0) on the branch; MEMORY.md covers Kadget Cloud and Tools 4\n- fix(remote-app): every pairing exit that saves nothing gives the Mac's token back\n- fix(cloud-phone): a No sends the token only over the pairing's live connection\n- docs(cloud): the phone loopback tunnel's accepted residual\n- fix(cloud-phone): pairing again replaces the old token silently; No revokes an issued token\n- fix(cloud-phone): a stream starting on a shared tunnel keeps a failed hello's reason\n- fix(cloud-security): keep paired phone names with their digits; pairing questions stay in view\n- fix(cloud-reliability): phone relay tunnel listens only while used, probes long enough, reports the right reason\n- fix(cloud-security): the phone keeps a relay pairing only after it confirms the code\n- feat(remote): delete the Kadget account from Settings, the password asked again\n- fix(remote): signed-out relay-only Macs say so, a relay sign-out ends the account, crypto errors stay inside the stream\n- feat(remote): Kadget account screens, Connect over the relay, and the route in the session\n- feat(remote): account state, routes and relay pairing\n- feat(remote): AccountApi and the relay end-to-end proof against the Go backend\n- feat(remote): RelayTunnel, a loopback port to a Mac through Kadget Cloud\n- feat(remote): KTun1 in Dart, the phone role, byte for byte with the shared vectors\n\nVersion 1.5.0 (build 7) · SHA-256: `870f93df5647e1711320edd0f78cfa972218981569c46b2aa580a3072c94c088`\n",
+  "published": "2026-11-23T07:18:17Z"
 }
