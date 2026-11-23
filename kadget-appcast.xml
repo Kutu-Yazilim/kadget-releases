@@ -6,6 +6,89 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.6.0</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.6.0</link>
+      <pubDate>Mon, 23 Nov 2026 17:24:37 +0000</pubDate>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>3.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- docs: MEMORY.md covers 3.6.0 (Kadget Neumorphic, Remote 1.6.0 with dock mode)
+- fix: dock tells the Mac when it stops watching toggles; tool list fits the smallest window and long Turkish titles; wallpaper goldens top-aligned
+- fix(remote-app): clips refresh on finger-up, not under a press; Last clip paste refusals show on the dock; asking says to paste again; paste waits for a question; goldens for the failure banner and the Open editor
+- docs(remote): a paste never waits, so its refusals are asking or unattended; notch radii golden
+- fix(remote-app): one glow on Home in landscape; radii 12/pill only; every overline upper-cases the Turkish way; dock turn logic in providers; dock leave assumption documented
+- test(remote): a refused paste asks again next time, as input does
+- test: overline expectations upper-case for the test's language
+- fix(notch): component radii to the keycap 12 or a pill; native surface tokens 12
+- fix(remote-app): clipboard history stays fresh on an open dock; Paste on Mac says the Mac's refusal; capabilities re-read on access.changed
+- refactor(settings): settings.json coding in its own file (kadget_settings.dart under 250 lines)
+- fix(macos): the main window's title bar follows the palette (aqua under Açık)
+- fix(l10n): Turkish overlines upper-case i to İ (OverlineText, as on the phone)
+- fix(remote-app): Open keys take only http(s) (https:// added), say why they fail; app picker searched, no lookups in the editor; Follow system never keeps Açık in the dark
+- fix(theme): under Liquid Glass the selected ink follows the tint again
+- fix(settings): a palette tap always shows; Açık never stays in dark mode; Reduce motion System/On/Off; language names in the model
+- fix(theme): an appearance change repaints tokens in place instead of remounting the tree
+- fix(remote): clipboard.paste asks like screen control; actions.state watch:false; info.changed on the history switch
+- feat(clipboard): picture previews, a bigger panel with tighter rows; pictures on the phone too
+- fix(tools): roomier tool list (32 px rows, gaps, wider column); short panels sit at the top
+- style: const knob shape (phone)
+- style: const knob shape
+- fix(remote): dock review: the notch takes the latest Now Playing when it joins a phone's stream, elapsed is sent as of now, new action ids reach phones, dark mode published when changed elsewhere
+- fix(neu): crisp switches: an accent-filled well uses accent edges, the knob on it a tight shadow
+- fix(remote-app): dock mode needs the Mac's actions switch too (its methods ride on it)
+- fix(remote-app): Now playing fits three-row pages, Stats shows CPU and GPU temperatures, a paste refused as declined asks for Accessibility, the dock never blanks unless it is closing; goldens at the board's 1:47
+- feat(remote): action states for the dock's toggle keys, Quick toggles with a state in the catalog, dock protocol docs
+- feat(remote): dock protocol on the Mac: now playing (get, artwork, watch), media volume and seek, clipboard paste, action states, deck capability
+- chore(remote-app): drop unused dock strings and the Coming soon note
+- feat(remote-app): the dock (Desk, Music, Stats, Clipboard, edit mode with the widget library and key editor), Home's Dock button and page, the rotate banner, Customize › Deck, Settings › Dock; goldens at 844 × 390
+- fix(tools): review nits: no single-use locals, action count in the model, named UTF-8 masks, launcher rows keep side shadows, the ask panel retitled
+- feat(remote-app): dock protocol client (now playing with local elapsed, artwork, media volume and seek, clipboard paste, action states, deck capability), layout store per Mac, dock session with dimming, dock settings
+- chore: 3.6.0+28; goldens redrawn with Lucide icons and glow opt-in
+- feat(clipboard): the clipboard panel as its board: inset search pill with the type chip, rows with avatars, detail well, key caps
+- feat(launcher): the launcher and its ⌘K panel as their boards: inset search pill, scopes, rows with key caps, key hints
+- feat(remote-app): deck models and pure logic (grid placement, layout JSON with migration, export, pages, idle dim, now playing interpolation, network history, dock entry)
+- feat(remote): the Remote page as its board: account, signed-in devices, paired phones with Read clipboard history, what phones can do
+- feat(tools): the workflow editor as its board; board goldens for Windows, Wallpaper and Workflows
+- feat(tools): Windows and Wallpaper laid out as their boards; tool page header and frame
+- docs: Remote dock mode spec
+- fix(ui): shadows keep their room in scroll views; glow is opt-in; long choices wrap; tests draw Lucide icons
+- fix(remote-app): Deck inert with Coming soon, no paging after a failure, no copy without the item's text, thumbnail decode fallback, Turkish fits
+- feat(remote): clipboard.history, clipboard.item, clipboard.copy on the Mac; per-phone permission; stats sensor fields
+- feat(remote): clipboard history answers from the main engine (history, item, copy)
+- feat(remote-app): Kadget Remote 1.6.0; goldens for Home with the nav bar, Customize, clipboard history and stats sensors
+- feat(remote-app): the Mac's shell with the pinned nav bar, Home tiles, Customize, clipboard history and stats sensors screens, hold-to-run keys
+- feat(remote-app): read the optional GPU, temperature, fan and per-core stats
+- feat(remote-app): clipboard history client (paged, filtered, thumbnails cached) with a fallback for older Macs
+- feat(remote-app): pinned pages, per-Mac action layout with a pure reconciler, hold to run
+- feat(remote-app): every upgraded phone follows the system appearance
+- fix(theme): live-palette paints resolve at paint time; menu lists leave room for shadows; notch keeps its buttons with the tint off
+- docs: spec adds optional stats fields; follow system on for upgrades
+- chore: drop committed golden failure images; ignore them
+- fix(remote-app): whole-pill field taps, sliders that ignore scrolls, overlay on the ground
+- test: every suite lays text out in Manrope; draft log waits for the async status read
+- test: Manrope only for the golden suites; tests follow KadgetSwitch and the scroll
+- feat(remote-app): page insets, file browser panel, goldens and component tests
+- feat(theme): sweep selection fills, wells, key caps and fixed-white art onto the neumorphic surfaces
+- feat(remote-app): neumorphic theme, settings migration and components on kadget_neu
+- test(components): Grafit and Açık goldens for the shared components and Settings › Appearance
+- test(theme): scheme mapping, appearance migration, engine wiring; tests follow the rail and the neumorphic look
+- feat(theme): NeuScheme, appearance settings, neumorphic shared components and the rail
+- test(kadget_neu): reset the shadow flag in finally; one glow shadow helper
+- docs: DESIGN.md, MEMORY.md rule 9 and CONTRIBUTING tokens for Kadget Neumorphic
+- chore: both apps depend on packages/kadget_neu
+- feat(kadget_neu): neumorphic tokens, NeuSurface and bundled Manrope
+- docs: spec wording
+- docs: neumorphic design language spec and the approved design system/boards
+
+SHA-256: `64482590ef618ac9466cbac201572403d8d2d7b69079eafff41451b46dd03eb2`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.6.0/Kadget-3.6.0.dmg" length="45466551" type="application/octet-stream" sparkle:edSignature="q3Trsli38Pfzqo6K59HOviOPPkR9cvA9Pi+1eNFnsGPrUptJ8ui6lEwuNvWi+Yo4m37+Y1OF4PutFnjQmEMyAQ=="/>
+    </item>
+    <item>
       <title>Kadget 3.5.0</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.5.0</link>
       <pubDate>Mon, 23 Nov 2026 06:42:29 +0000</pubDate>
