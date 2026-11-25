@@ -6,6 +6,29 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.12.1</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.12.1</link>
+      <pubDate>Wed, 25 Nov 2026 11:44:58 +0000</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>3.12.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- fix(build): resolve project.pbxproj merge (keep Remote + notch visibility files)
+- test(notch): a shortcut reveals a concealed notch, a peek keeps it concealed
+- fix(notch): an untouched open notch closes when its display goes full screen
+- fix(notch): judge full screen per display, not by the frontmost app
+- fix(notch): conceal in full screen instead of ordering out; keyboard per panel
+- feat(remote): monitor picker + all-screens view, three-finger Spaces / Mission Control / App Exposé (Kadget 3.12.0, Remote 1.11.0)
+- fix(notch): band shows no hover name (no truncated titles); back button names the page for VoiceOver
+
+SHA-256: `1bf1ffae015faf6d734b47084d3b1e9877bfa669021fb0b87399a1e204ca6a47`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.12.1/Kadget-3.12.1.dmg" length="60913725" type="application/octet-stream" sparkle:edSignature="ztWKj5NUoIGtoHAd3iXeRze5NVTgNiZQay1u6m6sWSNhEE8v9EKETPcBKJLAqkANG0b0vYWwg95LP+IBB8xDAA=="/>
+    </item>
+    <item>
       <title>Kadget 3.11.1</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.11.1</link>
       <pubDate>Wed, 25 Nov 2026 10:28:25 +0000</pubDate>
