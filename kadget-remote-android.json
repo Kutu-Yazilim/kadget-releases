@@ -1,10 +1,10 @@
 {
-  "version": "1.10.0",
-  "build": 12,
-  "url": "https://github.com/Kutu-Yazilim/kadget-releases/releases/download/remote-v1.10.0/KadgetRemote-1.10.0.apk",
-  "sha256": "1864e1593832af6a3656efcdf9767a2cda2949a32de519bffa20e6a77687968d",
-  "size": 122141105,
-  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/remote-v1.10.0",
-  "notes": "Kadget Remote for Android — control your Mac running Kadget from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Kadget › Tools › Kadget Remote, turn it on and scan the code.\n\n## Changes\n\n- feat(remote-app): Kadget Remote 1.10.0 — your own theme, as on the Mac (7 dark + 7 light backgrounds × 14 accents)\n\nVersion 1.10.0 (build 12) · SHA-256: `1864e1593832af6a3656efcdf9767a2cda2949a32de519bffa20e6a77687968d`\n",
-  "published": "2026-11-24T09:41:38Z"
+  "version": "1.11.0",
+  "build": 13,
+  "url": "https://github.com/Kutu-Yazilim/kadget-releases/releases/download/remote-v1.11.0/KadgetRemote-1.11.0.apk",
+  "sha256": "1cbe32383413fe07023fbb6944d3eb71574138f5e367ed9e74e773c1dd7d0fc5",
+  "size": 122321489,
+  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/remote-v1.11.0",
+  "notes": "Kadget Remote for Android — control your Mac running Kadget from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Kadget › Tools › Kadget Remote, turn it on and scan the code.\n\n## Changes\n\n- feat(remote): monitor picker + all-screens view, three-finger Spaces / Mission Control / App Exposé (Kadget 3.12.0, Remote 1.11.0)\n\nVersion 1.11.0 (build 13) · SHA-256: `1cbe32383413fe07023fbb6944d3eb71574138f5e367ed9e74e773c1dd7d0fc5`\n",
+  "published": "2026-11-25T11:47:32Z"
 }
