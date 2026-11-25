@@ -6,6 +6,24 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.11.0</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.11.0</link>
+      <pubDate>Wed, 25 Nov 2026 08:19:52 +0000</pubDate>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>3.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- feat(notch): show bubbles while the menu bar auto-hides; step aside when it's revealed
+- feat(notch): Kadget Notch 4 — ranked islands, Live home, command field, control surface (3.11.0)
+
+SHA-256: `e31ddbfd9fdb73877b6726eafbebe7102ed00ad04f49ff0923da9f9d999212be`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.11.0/Kadget-3.11.0.dmg" length="60627228" type="application/octet-stream" sparkle:edSignature="5Fq/rIydkKrCXdVzP9zQxpI5z+/ikmb3dMoxtOL3gNQG680PfSciAMitZBoO6amFGOhjJVZ4AkGKDPcw3dImBA=="/>
+    </item>
+    <item>
       <title>Kadget 3.10.0</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.10.0</link>
       <pubDate>Tue, 24 Nov 2026 09:00:07 +0000</pubDate>
