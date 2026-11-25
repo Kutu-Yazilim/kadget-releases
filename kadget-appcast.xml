@@ -6,6 +6,25 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.11.1</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.11.1</link>
+      <pubDate>Wed, 25 Nov 2026 10:28:25 +0000</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>3.11.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- fix(notch): hover tracker clears 'inside' when the shape closes under a resting pointer
+- feat(notch): live values in closed notch, local agent spend (API value, tokens, cache), restyled pages, motion fixes (3.11.1)
+- feat(notch): quick buttons as side circles around the island; per-axis spring motion, content fade/unblur
+
+SHA-256: `6080d5673ad702a88586c3c4e7a3f38b709663bcadd2d80856af2462d8f58725`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.11.1/Kadget-3.11.1.dmg" length="60866093" type="application/octet-stream" sparkle:edSignature="prjLW0wCe5Sr0jJ6svBvwd7uUIORtkdOtx7XGdcdjM7VcagaVxBKwnCOSrSNVHM5Qsswem9tzDZKfHeLq3iBBQ=="/>
+    </item>
+    <item>
       <title>Kadget 3.11.0</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.11.0</link>
       <pubDate>Wed, 25 Nov 2026 08:19:52 +0000</pubDate>
