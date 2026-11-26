@@ -6,6 +6,41 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.13.0</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.13.0</link>
+      <pubDate>Thu, 26 Nov 2026 11:14:32 +0000</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>3.13.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- build: Kadget Camera signing shared by build_dmg.sh and release.sh (Developer ID profiles for releases)
+- feat(camera): Kadget Camera joins Remote (frames, install row, info.cameraDevice, app auto-start); Kadget 3.13.0, Remote 1.12.0
+- fix(remote-app): drop single-use locals in the camera page and lens switch
+- fix(remote): resume a reconnecting phone camera without asking; camera.control on the camera's session
+- fix(remote-app): camera controls run one at a time, reconnect and Camera2 errors end the camera, Kadget Camera hint
+- feat(remote): phone screenshot to the Mac clipboard
+- test(remote): NV12 camera frames convert to BGRA
+- feat(remote): camera frame sink with rotation and fill/fit
+- feat(remote-app): phone screenshots for the Mac
+- feat(remote): reopen a phone's camera window where it was after a reconnect
+- feat(camera): Kadget Camera system extension, host CMIO client and installer behind KADGET_CAMERA=1
+- fix(remote-app): camera survives plugin string throws, asks notifications, ends when the session gives up
+- feat(remote): Phone camera window and settings
+- feat(remote-app): Camera page streams to the Mac
+- fix(remote): ignore a camera.state that crosses the Mac's stop
+- feat(remote): camera protocol, hub, ask and RTC slot
+- feat(remote-app): camera and screenshot protocol, RTC camera kind
+- docs(plan): Remote phone camera and phone screenshot
+- docs(spec): Remote phone camera (Kadget Camera) and phone screenshots to the clipboard
+
+SHA-256: `8bb20c9680d2bf38ced0540ee7f68b31b5a510a71426681ac77925ba1d829ea6`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.13.0/Kadget-3.13.0.dmg" length="61991254" type="application/octet-stream" sparkle:edSignature="9siyVouw2JWev4+pbX2jwz8KjL0bO8P3pObWF0HP43iV25tGJ4FLTru9FHFVqW7niDcB6eUlY+Wzea6oNDxwCA=="/>
+    </item>
+    <item>
       <title>Kadget 3.12.1</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.12.1</link>
       <pubDate>Wed, 25 Nov 2026 11:44:58 +0000</pubDate>
