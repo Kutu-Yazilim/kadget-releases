@@ -1,10 +1,10 @@
 {
-  "version": "1.11.0",
-  "build": 13,
-  "url": "https://github.com/Kutu-Yazilim/kadget-releases/releases/download/remote-v1.11.0/KadgetRemote-1.11.0.apk",
-  "sha256": "1cbe32383413fe07023fbb6944d3eb71574138f5e367ed9e74e773c1dd7d0fc5",
-  "size": 122321489,
-  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/remote-v1.11.0",
-  "notes": "Kadget Remote for Android — control your Mac running Kadget from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Kadget › Tools › Kadget Remote, turn it on and scan the code.\n\n## Changes\n\n- feat(remote): monitor picker + all-screens view, three-finger Spaces / Mission Control / App Exposé (Kadget 3.12.0, Remote 1.11.0)\n\nVersion 1.11.0 (build 13) · SHA-256: `1cbe32383413fe07023fbb6944d3eb71574138f5e367ed9e74e773c1dd7d0fc5`\n",
-  "published": "2026-11-25T11:47:32Z"
+  "version": "1.12.0",
+  "build": 14,
+  "url": "https://github.com/Kutu-Yazilim/kadget-releases/releases/download/remote-v1.12.0/KadgetRemote-1.12.0.apk",
+  "sha256": "5fdb9badb44bfc17c637322e97866f7415256cab528ba99ad50d0a2ffd243c2c",
+  "size": 122520845,
+  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/remote-v1.12.0",
+  "notes": "Kadget Remote for Android — control your Mac running Kadget from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Kadget › Tools › Kadget Remote, turn it on and scan the code.\n\n## Changes\n\n- feat(camera): Kadget Camera joins Remote (frames, install row, info.cameraDevice, app auto-start); Kadget 3.13.0, Remote 1.12.0\n- fix(remote-app): drop single-use locals in the camera page and lens switch\n- fix(remote): resume a reconnecting phone camera without asking; camera.control on the camera's session\n- fix(remote-app): camera controls run one at a time, reconnect and Camera2 errors end the camera, Kadget Camera hint\n- feat(remote): phone screenshot to the Mac clipboard\n- feat(remote-app): phone screenshots for the Mac\n- fix(remote-app): camera survives plugin string throws, asks notifications, ends when the session gives up\n- feat(remote-app): Camera page streams to the Mac\n- fix(remote): ignore a camera.state that crosses the Mac's stop\n- feat(remote): camera protocol, hub, ask and RTC slot\n- feat(remote-app): camera and screenshot protocol, RTC camera kind\n\nVersion 1.12.0 (build 14) · SHA-256: `5fdb9badb44bfc17c637322e97866f7415256cab528ba99ad50d0a2ffd243c2c`\n",
+  "published": "2026-11-26T11:16:58Z"
 }
