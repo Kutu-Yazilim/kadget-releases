@@ -6,6 +6,29 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.13.3</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.13.3</link>
+      <pubDate>Fri, 27 Nov 2026 08:04:53 +0000</pubDate>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>3.13.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- docs: MEMORY.md 3.13.3 row covers the launcher
+- feat(launcher): tighter panel, back toward the pre-neumorphic density (596 → 544 px at 8 rows)
+- perf(neu): surfaces that never change level skip the tween and repaint layer (key caps, launcher glyphs)
+- fix(camera): add the readers listener once per device instead of removing it
+- fix(camera): readers listener no longer writes kcrd (runaway loop, ~70 GB leak); Kadget 3.13.3
+- fix(camera): Kadget Camera receives the phone video (sink gate, restart after install, 1–30 fps, persisted last phone); Kadget 3.13.2
+- fix(service): reset stale privacy grants on the first launch under a new signing team; appcast reads notes as UTF-8 (Kadget 3.13.1)
+
+SHA-256: `203cf6ce1c93a5d5129e002c966976652f22b5372278f3fbe96ff03add5e0a2b`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.13.3/Kadget-3.13.3.dmg" length="62012286" type="application/octet-stream" sparkle:edSignature="B98pKSy9mFWhvrXOtSJlFDQhy2WeZmg25gKhsYkiQ6PegoLcEyPF+9a8kvv1WISTY3zuUvDb+gWxpguiOWOrAQ=="/>
+    </item>
+    <item>
       <title>Kadget 3.13.0</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.13.0</link>
       <pubDate>Thu, 26 Nov 2026 11:14:32 +0000</pubDate>
