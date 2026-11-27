@@ -1,10 +1,10 @@
 {
-  "version": "1.13.0",
-  "build": 15,
-  "url": "https://github.com/Kutu-Yazilim/kadget-releases/releases/download/remote-v1.13.0/KadgetRemote-1.13.0.apk",
-  "sha256": "6a4662a4c09a7123b4ebe03410d16a1e39c60884e9d63ae34803fed5a0470fe3",
+  "version": "1.13.1",
+  "build": 16,
+  "url": "https://github.com/Kutu-Yazilim/kadget-releases/releases/download/remote-v1.13.1/KadgetRemote-1.13.1.apk",
+  "sha256": "c76358dd439eb914b4338844393b6d206c9aed5dc4e97513c0a06dd2496817fe",
   "size": 122866369,
-  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/remote-v1.13.0",
-  "notes": "Kadget Remote for Android: control your Mac running Kadget from your phone.\n\nInstall: download the APK on the phone and allow installing from this source. Then, on the Mac, open Kadget › Tools › Kadget Remote, turn it on and scan the code.\n\n## What's new (needs Kadget 3.14.0 on the Mac)\n\n- **AI usage widgets.** A usage ring and a usage list show your Claude, Codex and Antigravity limits in the dock. There is also a new \"AI limit\" stat.\n- **Agent approvals.** Permission requests from your agents on the Mac appear as a banner (also over the dimmed dock), as a widget, and in a sheet with the full request. Allow or deny from the phone. The first answer wins, and your tap always answers the request you saw.\n- **Trackpad widget.** Move, click, right-click, scroll, drag and three-finger swipe on the Mac. Moves stay in order on slow connections, and the dock stays awake while you use it.\n\n## Fixes\n- The usage ring stays readable with long or stale labels.\n- Approvals re-read their state after a failed answer, hide requests that are already being answered, and ignore stale replies.\n- Opening a request in the sheet re-arms the approval buttons.\n- Dock surfaces that never change no longer animate, and the reset countdown updates once a minute instead of every second.\n\nVersion 1.13.0 (build 15) · SHA-256: `6a4662a4c09a7123b4ebe03410d16a1e39c60884e9d63ae34803fed5a0470fe3`\n",
-  "published": "2026-11-27T13:35:40Z"
+  "releaseNotesUrl": "https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/remote-v1.13.1",
+  "notes": "Kadget Remote for Android — control your Mac running Kadget from your phone over Tailscale.\n\nInstall: download the APK on the phone and allow installing from this source. Then on the Mac open Kadget › Tools › Kadget Remote, turn it on and scan the code.\n\n## Changes\n\n- chore(release): Kadget Remote 1.13.1+16\n- perf(remote-app): trackpad moves no longer wait for each answer; a full-screen trackpad page\n\nVersion 1.13.1 (build 16) · SHA-256: `c76358dd439eb914b4338844393b6d206c9aed5dc4e97513c0a06dd2496817fe`\n",
+  "published": "2026-11-27T14:33:53Z"
 }
