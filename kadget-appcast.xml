@@ -13,13 +13,18 @@
       <sparkle:shortVersionString>3.15.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
       <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
-      <description sparkle:format="markdown"><![CDATA[## Changes
+      <description sparkle:format="markdown"><![CDATA[## What's new
 
-- feat(knowledge,cleaner): force-start AI learning and one-click RAM & swap cleaner (3.15.0)
-- docs: MEMORY.md records why the notch keeps its own engine
+### Force-start AI learning
+- **Start anyway** on the Knowledge › Nightly card whenever a run is held for memory or paused by the memory gate. Starts the run immediately without waiting for 7 GB of free RAM.
+- **Ignore memory limit** switch in Knowledge › Memory budget to permanently bypass the memory cap (and immediately unblock any paused run).
+
+### One-click RAM & swap cleaner
+- **Clean RAM & swap** button available in **Live**, **Cleaner**, the **menu bar Live & Cleaner dropdowns**, and right next to **Start anyway** when AI learning is held for memory.
+- Clears Flutter image caches, unloads an idle local Ollama model (skipped while learning is active), trims process caches, and runs `memory_pressure` + `/usr/sbin/purge` via the privileged helper, showing before/after RAM and swap deltas.
+- If the privileged helper was already installed from an earlier version, reinstall or re-register it in **Settings › Privileged helper** to enable system-wide `purge`.
 
 SHA-256: `b8fbe582f6c81691195c1eb3683aacbc524ca2cd01112bb78fbe78070cc8fe2d`
-
 ]]></description>
       <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.15.0/Kadget-3.15.0.dmg" length="62473643" type="application/octet-stream" sparkle:edSignature="qkqB0MwP0N7jK3QUUvfSOkyOMigh+YHLiX5K5TVJNk0hcSBdC3kN3S0vO2TM0fk7WhyjbG755D4go1XVA67mCg=="/>
     </item>
