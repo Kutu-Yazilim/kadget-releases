@@ -6,6 +6,24 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.15.0</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.15.0</link>
+      <pubDate>Fri, 27 Nov 2026 21:52:25 +0000</pubDate>
+      <sparkle:version>44</sparkle:version>
+      <sparkle:shortVersionString>3.15.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- feat(knowledge,cleaner): force-start AI learning and one-click RAM & swap cleaner (3.15.0)
+- docs: MEMORY.md records why the notch keeps its own engine
+
+SHA-256: `b8fbe582f6c81691195c1eb3683aacbc524ca2cd01112bb78fbe78070cc8fe2d`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.15.0/Kadget-3.15.0.dmg" length="62473643" type="application/octet-stream" sparkle:edSignature="qkqB0MwP0N7jK3QUUvfSOkyOMigh+YHLiX5K5TVJNk0hcSBdC3kN3S0vO2TM0fk7WhyjbG755D4go1XVA67mCg=="/>
+    </item>
+    <item>
       <title>Kadget 3.14.0</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.14.0</link>
       <pubDate>Fri, 27 Nov 2026 13:32:43 +0000</pubDate>
