@@ -6,6 +6,41 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.14.0</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.14.0</link>
+      <pubDate>Fri, 27 Nov 2026 13:32:43 +0000</pubDate>
+      <sparkle:version>43</sparkle:version>
+      <sparkle:shortVersionString>3.14.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## What's new
+
+### Your phone's dock: AI usage, agent approvals and a trackpad
+Needs Kadget Remote 1.13.0 on the phone.
+
+- **AI usage on the phone.** Claude, Codex and Antigravity limits appear in two new dock widgets: a usage ring and a usage list. There is also a new "AI limit" stat. Turn it off with **Share AI usage** in Tools › Kadget Remote; it is on by default.
+- **Approve agent requests from the phone or the notch.** When Claude Code, Codex, Antigravity, OpenCode or a T3 chat asks for permission, the request shows on the notch and on phones you allow. On the phone it appears as a banner, a widget, and a sheet with the full request. The first answer wins.
+  - If nobody answers in time, the request is withdrawn or something fails, the agent simply asks in its own terminal, as before.
+  - Kadget only holds a request when it can show it: the notch with Agents on, or a connected phone you allowed.
+- **Agent hooks installed safely.** Kadget adds its own hook entries next to other apps' hooks and never replaces them. Each config file is backed up once (`.kadget.bak`) before the first change, and every write is atomic.
+- **Trackpad widget.** Move, click, right-click, scroll, drag and three-finger swipes from the phone, without starting screen sharing.
+
+### Faster and lighter
+- **About 80 MB less memory while the main window is closed.** The menu bar dropdowns, agent panel, clipboard and launcher now run on the main engine instead of a separate one. Kadget runs two Flutter engines instead of three.
+- **Less background CPU.** The spend scanner now reads only the log files that actually changed. It used to re-check about 7,000 files every 2 seconds, which cost about half a CPU core.
+- **Smoother drawing.** Settings renders about twice as fast (raster time 3.56 → 1.77 ms). Surfaces that never change no longer animate or keep extra layers.
+
+### Fixes
+- **Kadget no longer gets stuck when a stale process holds its instance lock.** A process that isn't Kadget can't block the launch any more, and a lock timeout is no longer recorded as a deliberate quit.
+- Agent request rows in the notch show up to three lines.
+- Remote settings: the approval options show even while the master switch is off, and the Turkish wording is smoother.
+
+SHA-256: `6f1b6f739783914d60c33e41167106a35e4a2452439ef1237658cc9a8703a882`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.14.0/Kadget-3.14.0.dmg" length="62449684" type="application/octet-stream" sparkle:edSignature="P6aZViKbb0GXyLEtdAzhv92lnp/pHBKDZH/mJyZkO4Z9unK/RTgm/uSuJJ3ZcayIBkzOuv9CvDYMX6KL/ZBYCg=="/>
+    </item>
+    <item>
       <title>Kadget 3.13.3</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.13.3</link>
       <pubDate>Fri, 27 Nov 2026 08:04:53 +0000</pubDate>
