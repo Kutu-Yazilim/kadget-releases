@@ -6,6 +6,23 @@
     <description>Kadget for macOS: release feed for in-app updates.</description>
     <language>en</language>
     <item>
+      <title>Kadget 3.15.1</title>
+      <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.15.1</link>
+      <pubDate>Sat, 28 Nov 2026 13:22:04 +0000</pubDate>
+      <sparkle:version>45</sparkle:version>
+      <sparkle:shortVersionString>3.15.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/Kutu-Yazilim/kadget-releases/releases</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[## Changes
+
+- fix(camera): Kadget Camera asks a connected phone, tests keep out of the user's settings (3.15.1)
+
+SHA-256: `21b0501bfa94c1cb764def60079b3c6795b19d8c1510a2f565a9fb58a448d8c9`
+
+]]></description>
+      <enclosure url="https://github.com/Kutu-Yazilim/kadget-releases/releases/download/v3.15.1/Kadget-3.15.1.dmg" length="62477894" type="application/octet-stream" sparkle:edSignature="bQaJEiBDY+UnRN1iFS3dBaaosW5nJ24hYfaBJpJC4/1rtsVs62ighN5DjowIgRO1S0K6lrAfXrEPMGo/6AY3Bw=="/>
+    </item>
+    <item>
       <title>Kadget 3.15.0</title>
       <link>https://github.com/Kutu-Yazilim/kadget-releases/releases/tag/v3.15.0</link>
       <pubDate>Fri, 27 Nov 2026 21:52:25 +0000</pubDate>
